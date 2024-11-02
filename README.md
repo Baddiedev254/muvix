@@ -114,18 +114,23 @@ The system includes comprehensive error handling for:
 
 1. Clone the repository
     ```
-    git clone
+    git clone https://github.com/Baddiedev254/muvix.git
     ```
-2. Install dependencies:
+2. Navigate to the project directory
+    ```
+    cd muvix
+
+    ```
+3. Install dependencies:
    ```bash
    npm install
    ```
-3. Start the Local Replica
+4. Start the Local Replica
     ```
     dfx start --host 127.0.0.1:8000 --clean --background
 
     ```
-4. Deploy the project locally
+5. Deploy the project locally
     ```
     dfx deploy
 
